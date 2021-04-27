@@ -17,7 +17,7 @@ public struct MainViewswift: View {
     var burningQuantity: Double = 0
     var dateforBurning: Date
     
-    //MARK: Font and color property
+    //MARK: Font and color  property
     var txtSize: CGFloat
     var txtColor: UIColor
     var headColor: UIColor
