@@ -22,12 +22,12 @@ public struct MainViewswift: View {
     var txtColor: UIColor
     var headColor: UIColor
     var headTxtSize: CGFloat
-    var bgColor: UIColor
+    var bgColor: CGColor
     
     
     
     
-    public init(logo: String, type: String, quantity: Double, burningQuantity: Double, dateforBurning: Date, txtSize: CGFloat, txtColor: UIColor, headColor: UIColor, headTxtSize: CGFloat, bgColor: UIColor) {
+    public init(logo: String, type: String, quantity: Double, burningQuantity: Double, dateforBurning: Date, txtSize: CGFloat, txtColor: UIColor, headColor: UIColor, headTxtSize: CGFloat, bgColor: CGColor) {
         self.logo = logo
         self.type = type
         self.quantity = quantity

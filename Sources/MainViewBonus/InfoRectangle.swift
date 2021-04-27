@@ -17,11 +17,11 @@ public struct InfoRectangle: View {
     var headColor: UIColor
     var headTxtSize: CGFloat
     var dateforBurning: Date
-    var bgColor: UIColor
+    var bgColor: CGColor
     
     public var body: some View {
         ZStack{
-            Color(bgColor)
+            Color(.init(cgColor: bgColor))
             HStack{
                 VStack{
                     HStack{
